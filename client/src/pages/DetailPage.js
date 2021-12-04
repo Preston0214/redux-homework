@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import { Link, useParams } from 'react-router-dom';
 
 // Here we import the Redux hooks we need
 import { useDispatch, useSelector } from 'react-redux';
@@ -13,8 +13,8 @@ import {
   UPDATE_PRODUCTS,
 } from '../utils/actions';
 import { QUERY_PRODUCTS } from '../utils/queries';
-import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
+import { idbPromise } from '../utils/helpers';
 
 function DetailPage() {
   // Instantiate the useDispatch hook

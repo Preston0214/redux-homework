@@ -8,10 +8,10 @@ const ItemSchema = new Schema({
     required: true,
     trim: true
   },
-  description: {
+  image: {
     type: String
   },
-  image: {
+  description: {
     type: String
   },
   price: {
